@@ -1,3 +1,5 @@
+package com.example;
+
 /**
  * @author MARIIA
  * Implement method fourLetters which counts amount of fourLetter names from input string
