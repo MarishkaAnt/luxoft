@@ -1,6 +1,6 @@
 # Tasks for Luxoft
 
-These tasks were solved for project Luxoft luxcity
+These tasks were solved for "Luxcity" project
 by Antonova Mariia
 ```shell
 https://luxcity.geecko.com/
