@@ -11,8 +11,8 @@ public class Task1 {
     public static int fourLetters(String names) {
         String[] namesArray = names.split(" ");
         int counter = 0;
-        for(String s: namesArray){
-            if(s.length() == 4){
+        for (String s : namesArray) {
+            if (s.length() == 4) {
                 counter++;
             }
         }

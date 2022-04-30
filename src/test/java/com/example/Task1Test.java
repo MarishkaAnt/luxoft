@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class Task1Test {
     @ParameterizedTest
     @MethodSource("source")
-    public void test_fourLetters_equals(String input, Integer expected){
+    public void test_fourLetters_equals(String input, Integer expected) {
         Assertions.assertEquals(expected, Task1.fourLetters(input));
     }
 

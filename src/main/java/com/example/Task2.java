@@ -23,7 +23,7 @@ public class Task2 {
                 (e1, e2) -> e2.size() - e1.size();
 
         List<List<Integer>> list = new ArrayList<>();
-        for (Map.Entry<Integer, Long> e: map.entrySet()){
+        for (Map.Entry<Integer, Long> e : map.entrySet()) {
             List<Integer> l = new ArrayList<>();
             for (int i = 0; i < e.getValue(); i++) {
                 l.add(e.getKey());

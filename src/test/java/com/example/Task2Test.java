@@ -24,7 +24,7 @@ public class Task2Test {
         Assertions.assertEquals(expected, Task2.frequencySort(input));
     }
 
-    public static Stream<Arguments> source(){
+    public static Stream<Arguments> source() {
         return Stream.of(
                 Arguments.of("4 10 3", "3 4 10"),
                 Arguments.of("4", "4"),
