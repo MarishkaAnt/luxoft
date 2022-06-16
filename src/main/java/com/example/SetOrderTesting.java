@@ -1,0 +1,20 @@
+package com.example;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SetOrderTesting {
+    public static void main(String[] args) {
+        Set<Integer> ints = new TreeSet<>();
+        ints.add(5);
+        ints.add(60);
+        ints.add(48);
+        ints.add(30);
+        ints.add(22);
+        ints.add(1);
+        ints.add(0);
+        System.out.println(ints);
+        // HashSet = [48, 0, 1, 5, 22, 60, 30]
+        // TreeSet = [0, 1, 5, 22, 30, 48, 60]
+    }
+}
